@@ -1,0 +1,92 @@
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100vw;
+  padding: 40px 0;
+}
+
+.headerTitle {
+  fonrt-family: "Instrument Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.sectionContainer {
+  display: flex;
+  max-width: 500px;
+  padding: 80px 90px 0px 90px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  border-radius: 20px;
+  background: #d4f5dd;
+}
+
+.sectionHeader {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.sectionTitle {
+  color: #333333;
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionInner {
+  display: flex;
+  height: 550px;
+  /*padding: 100px 79px 10px 79px;*/
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  align-self: stretch;
+  font-size: 20px;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  padding: 20px 79px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: #d4f5dd;
+}
